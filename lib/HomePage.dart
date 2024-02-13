@@ -90,6 +90,7 @@ class _HomePageState extends State<HomePage> {
               ),
               TextField(
                 controller: _textController,
+                style: TextStyle(color: Colors.white),
                 decoration: const InputDecoration(
                   hintText: "Enter email to check",
                   hintStyle: TextStyle(color: Colors.white),
